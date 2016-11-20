@@ -13,6 +13,8 @@ import { NavController } from 'ionic-angular';
 })
 export class TransactionsPage {
 
+	title : string = "Movimientos";
+
   constructor(public navCtrl: NavController) {}
 
   ionViewDidLoad() {
